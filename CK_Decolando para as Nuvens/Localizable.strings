@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CK_Decolando para as Nuvens
+
+  Created by João Guilherme on 07/12/20.
+
+*/
+
+"letter_registered_alert" = "%@ Criou uma carta!";

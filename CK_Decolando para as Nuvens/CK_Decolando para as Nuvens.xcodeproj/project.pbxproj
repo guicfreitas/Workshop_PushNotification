@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		648CCE30256FDD6600954A74 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CCE2F256FDD6600954A74 /* ExtensionViewController.swift */; };
+		648CCE35256FDE4500954A74 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648CCE34256FDE4500954A74 /* ListTableViewCell.swift */; };
+		6495F4A5256FF97D006DCBE2 /* LetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495F4A4256FF97D006DCBE2 /* LetterViewController.swift */; };
+		7963C84B25791F98004D5838 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7963C84A25791F98004D5838 /* CloudKit.framework */; };
+		7963C8502579253A004D5838 /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963C84F2579253A004D5838 /* Letter.swift */; };
+		7963C855257A8B75004D5838 /* EditLetterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7963C854257A8B75004D5838 /* EditLetterViewController.swift */; };
+		79C9C859257E71B700D16480 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79C9C858257E71B700D16480 /* Localizable.strings */; };
+		79E65FAB2583B5FF007F877E /* pushSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 79E65FAA2583B5FF007F877E /* pushSound.wav */; };
+		79E70D56256D58C800847F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E70D55256D58C800847F5F /* AppDelegate.swift */; };
+		79E70D58256D58C800847F5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E70D57256D58C800847F5F /* SceneDelegate.swift */; };
+		79E70D5A256D58C800847F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E70D59256D58C800847F5F /* ViewController.swift */; };
+		79E70D5D256D58C800847F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E70D5B256D58C800847F5F /* Main.storyboard */; };
+		79E70D5F256D58CB00847F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E70D5E256D58CB00847F5F /* Assets.xcassets */; };
+		79E70D62256D58CB00847F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E70D60256D58CB00847F5F /* LaunchScreen.storyboard */; };
+		79E70D6D256D58CB00847F5F /* CK_Decolando_para_as_NuvensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E70D6C256D58CB00847F5F /* CK_Decolando_para_as_NuvensTests.swift */; };
+		79E70D78256D58CB00847F5F /* CK_Decolando_para_as_NuvensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E70D77256D58CB00847F5F /* CK_Decolando_para_as_NuvensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E70D69256D58CB00847F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E70D4A256D58C800847F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E70D51256D58C800847F5F;
+			remoteInfo = "CK_Decolando para as Nuvens";
+		};
+		79E70D74256D58CB00847F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E70D4A256D58C800847F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E70D51256D58C800847F5F;
+			remoteInfo = "CK_Decolando para as Nuvens";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		648A8B24257129D900169B8A /* CK_Decolando para as Nuvens.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CK_Decolando para as Nuvens.entitlements"; sourceTree = "<group>"; };
+		648CCE2F256FDD6600954A74 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		648CCE34256FDE4500954A74 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		6495F4A4256FF97D006DCBE2 /* LetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterViewController.swift; sourceTree = "<group>"; };
+		7963C84A25791F98004D5838 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		7963C84F2579253A004D5838 /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		7963C854257A8B75004D5838 /* EditLetterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditLetterViewController.swift; sourceTree = "<group>"; };
+		79C9C858257E71B700D16480 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		79E65FAA2583B5FF007F877E /* pushSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pushSound.wav; sourceTree = "<group>"; };
+		79E70D52256D58C800847F5F /* CK_Decolando para as Nuvens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CK_Decolando para as Nuvens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E70D55256D58C800847F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79E70D57256D58C800847F5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79E70D59256D58C800847F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79E70D5C256D58C800847F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E70D5E256D58CB00847F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E70D61256D58CB00847F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E70D63256D58CB00847F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E70D68256D58CB00847F5F /* CK_Decolando para as NuvensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CK_Decolando para as NuvensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E70D6C256D58CB00847F5F /* CK_Decolando_para_as_NuvensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CK_Decolando_para_as_NuvensTests.swift; sourceTree = "<group>"; };
+		79E70D6E256D58CB00847F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E70D73256D58CB00847F5F /* CK_Decolando para as NuvensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CK_Decolando para as NuvensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E70D77256D58CB00847F5F /* CK_Decolando_para_as_NuvensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CK_Decolando_para_as_NuvensUITests.swift; sourceTree = "<group>"; };
+		79E70D79256D58CB00847F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E70D4F256D58C800847F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7963C84B25791F98004D5838 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E70D65256D58CB00847F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E70D70256D58CB00847F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		648CCE26256FDD1200954A74 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				648CCE2F256FDD6600954A74 /* ExtensionViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7963C84925791F98004D5838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7963C84A25791F98004D5838 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79AF75D9256FF3B500A4A780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7963C84F2579253A004D5838 /* Letter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79AF75DB256FF3CD00A4A780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				648CCE34256FDE4500954A74 /* ListTableViewCell.swift */,
+				79E70D5B256D58C800847F5F /* Main.storyboard */,
+				79E70D60256D58CB00847F5F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79AF75DC256FF3D900A4A780 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79E70D55256D58C800847F5F /* AppDelegate.swift */,
+				79E70D57256D58C800847F5F /* SceneDelegate.swift */,
+				79E70D59256D58C800847F5F /* ViewController.swift */,
+				6495F4A4256FF97D006DCBE2 /* LetterViewController.swift */,
+				7963C854257A8B75004D5838 /* EditLetterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		79E70D49256D58C800847F5F = {
+			isa = PBXGroup;
+			children = (
+				79C9C858257E71B700D16480 /* Localizable.strings */,
+				79E65FAA2583B5FF007F877E /* pushSound.wav */,
+				79E70D54256D58C800847F5F /* CK_Decolando para as Nuvens */,
+				79E70D6B256D58CB00847F5F /* CK_Decolando para as NuvensTests */,
+				79E70D76256D58CB00847F5F /* CK_Decolando para as NuvensUITests */,
+				79E70D53256D58C800847F5F /* Products */,
+				7963C84925791F98004D5838 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79E70D53256D58C800847F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E70D52256D58C800847F5F /* CK_Decolando para as Nuvens.app */,
+				79E70D68256D58CB00847F5F /* CK_Decolando para as NuvensTests.xctest */,
+				79E70D73256D58CB00847F5F /* CK_Decolando para as NuvensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E70D54256D58C800847F5F /* CK_Decolando para as Nuvens */ = {
+			isa = PBXGroup;
+			children = (
+				648A8B24257129D900169B8A /* CK_Decolando para as Nuvens.entitlements */,
+				79AF75DC256FF3D900A4A780 /* Controller */,
+				79AF75DB256FF3CD00A4A780 /* View */,
+				79AF75D9256FF3B500A4A780 /* Model */,
+				648CCE26256FDD1200954A74 /* Extension */,
+				79E70D5E256D58CB00847F5F /* Assets.xcassets */,
+				79E70D63256D58CB00847F5F /* Info.plist */,
+			);
+			path = "CK_Decolando para as Nuvens";
+			sourceTree = "<group>";
+		};
+		79E70D6B256D58CB00847F5F /* CK_Decolando para as NuvensTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E70D6C256D58CB00847F5F /* CK_Decolando_para_as_NuvensTests.swift */,
+				79E70D6E256D58CB00847F5F /* Info.plist */,
+			);
+			path = "CK_Decolando para as NuvensTests";
+			sourceTree = "<group>";
+		};
+		79E70D76256D58CB00847F5F /* CK_Decolando para as NuvensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E70D77256D58CB00847F5F /* CK_Decolando_para_as_NuvensUITests.swift */,
+				79E70D79256D58CB00847F5F /* Info.plist */,
+			);
+			path = "CK_Decolando para as NuvensUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E70D51256D58C800847F5F /* CK_Decolando para as Nuvens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E70D7C256D58CB00847F5F /* Build configuration list for PBXNativeTarget "CK_Decolando para as Nuvens" */;
+			buildPhases = (
+				79E70D4E256D58C800847F5F /* Sources */,
+				79E70D4F256D58C800847F5F /* Frameworks */,
+				79E70D50256D58C800847F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CK_Decolando para as Nuvens";
+			productName = "CK_Decolando para as Nuvens";
+			productReference = 79E70D52256D58C800847F5F /* CK_Decolando para as Nuvens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E70D67256D58CB00847F5F /* CK_Decolando para as NuvensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E70D7F256D58CB00847F5F /* Build configuration list for PBXNativeTarget "CK_Decolando para as NuvensTests" */;
+			buildPhases = (
+				79E70D64256D58CB00847F5F /* Sources */,
+				79E70D65256D58CB00847F5F /* Frameworks */,
+				79E70D66256D58CB00847F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E70D6A256D58CB00847F5F /* PBXTargetDependency */,
+			);
+			name = "CK_Decolando para as NuvensTests";
+			productName = "CK_Decolando para as NuvensTests";
+			productReference = 79E70D68256D58CB00847F5F /* CK_Decolando para as NuvensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E70D72256D58CB00847F5F /* CK_Decolando para as NuvensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E70D82256D58CB00847F5F /* Build configuration list for PBXNativeTarget "CK_Decolando para as NuvensUITests" */;
+			buildPhases = (
+				79E70D6F256D58CB00847F5F /* Sources */,
+				79E70D70256D58CB00847F5F /* Frameworks */,
+				79E70D71256D58CB00847F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E70D75256D58CB00847F5F /* PBXTargetDependency */,
+			);
+			name = "CK_Decolando para as NuvensUITests";
+			productName = "CK_Decolando para as NuvensUITests";
+			productReference = 79E70D73256D58CB00847F5F /* CK_Decolando para as NuvensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E70D4A256D58C800847F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					79E70D51256D58C800847F5F = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					79E70D67256D58CB00847F5F = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 79E70D51256D58C800847F5F;
+					};
+					79E70D72256D58CB00847F5F = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 79E70D51256D58C800847F5F;
+					};
+				};
+			};
+			buildConfigurationList = 79E70D4D256D58C800847F5F /* Build configuration list for PBXProject "CK_Decolando para as Nuvens" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E70D49256D58C800847F5F;
+			productRefGroup = 79E70D53256D58C800847F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E70D51256D58C800847F5F /* CK_Decolando para as Nuvens */,
+				79E70D67256D58CB00847F5F /* CK_Decolando para as NuvensTests */,
+				79E70D72256D58CB00847F5F /* CK_Decolando para as NuvensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E70D50256D58C800847F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E70D62256D58CB00847F5F /* LaunchScreen.storyboard in Resources */,
+				79C9C859257E71B700D16480 /* Localizable.strings in Resources */,
+				79E65FAB2583B5FF007F877E /* pushSound.wav in Resources */,
+				79E70D5F256D58CB00847F5F /* Assets.xcassets in Resources */,
+				79E70D5D256D58C800847F5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E70D66256D58CB00847F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E70D71256D58CB00847F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E70D4E256D58C800847F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7963C8502579253A004D5838 /* Letter.swift in Sources */,
+				79E70D5A256D58C800847F5F /* ViewController.swift in Sources */,
+				648CCE30256FDD6600954A74 /* ExtensionViewController.swift in Sources */,
+				79E70D56256D58C800847F5F /* AppDelegate.swift in Sources */,
+				79E70D58256D58C800847F5F /* SceneDelegate.swift in Sources */,
+				6495F4A5256FF97D006DCBE2 /* LetterViewController.swift in Sources */,
+				7963C855257A8B75004D5838 /* EditLetterViewController.swift in Sources */,
+				648CCE35256FDE4500954A74 /* ListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E70D64256D58CB00847F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E70D6D256D58CB00847F5F /* CK_Decolando_para_as_NuvensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E70D6F256D58CB00847F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E70D78256D58CB00847F5F /* CK_Decolando_para_as_NuvensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E70D6A256D58CB00847F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E70D51256D58C800847F5F /* CK_Decolando para as Nuvens */;
+			targetProxy = 79E70D69256D58CB00847F5F /* PBXContainerItemProxy */;
+		};
+		79E70D75256D58CB00847F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E70D51256D58C800847F5F /* CK_Decolando para as Nuvens */;
+			targetProxy = 79E70D74256D58CB00847F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E70D5B256D58C800847F5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E70D5C256D58C800847F5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79E70D60256D58CB00847F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E70D61256D58CB00847F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E70D7A256D58CB00847F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79E70D7B256D58CB00847F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E70D7D256D58CB00847F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CK_Decolando para as Nuvens/CK_Decolando para as Nuvens.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5H255ZF9U;
+				INFOPLIST_FILE = "CK_Decolando para as Nuvens/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emao.CK-Decolando-para-as-Nuvens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E70D7E256D58CB00847F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CK_Decolando para as Nuvens/CK_Decolando para as Nuvens.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5H255ZF9U;
+				INFOPLIST_FILE = "CK_Decolando para as Nuvens/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emao.CK-Decolando-para-as-Nuvens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79E70D80256D58CB00847F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5H255ZF9U;
+				INFOPLIST_FILE = "CK_Decolando para as NuvensTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emao.CK-Decolando-para-as-NuvensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CK_Decolando para as Nuvens.app/CK_Decolando para as Nuvens";
+			};
+			name = Debug;
+		};
+		79E70D81256D58CB00847F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5H255ZF9U;
+				INFOPLIST_FILE = "CK_Decolando para as NuvensTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emao.CK-Decolando-para-as-NuvensTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CK_Decolando para as Nuvens.app/CK_Decolando para as Nuvens";
+			};
+			name = Release;
+		};
+		79E70D83256D58CB00847F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5H255ZF9U;
+				INFOPLIST_FILE = "CK_Decolando para as NuvensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emao.CK-Decolando-para-as-NuvensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CK_Decolando para as Nuvens";
+			};
+			name = Debug;
+		};
+		79E70D84256D58CB00847F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R5H255ZF9U;
+				INFOPLIST_FILE = "CK_Decolando para as NuvensUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "emao.CK-Decolando-para-as-NuvensUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CK_Decolando para as Nuvens";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E70D4D256D58C800847F5F /* Build configuration list for PBXProject "CK_Decolando para as Nuvens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E70D7A256D58CB00847F5F /* Debug */,
+				79E70D7B256D58CB00847F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E70D7C256D58CB00847F5F /* Build configuration list for PBXNativeTarget "CK_Decolando para as Nuvens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E70D7D256D58CB00847F5F /* Debug */,
+				79E70D7E256D58CB00847F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E70D7F256D58CB00847F5F /* Build configuration list for PBXNativeTarget "CK_Decolando para as NuvensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E70D80256D58CB00847F5F /* Debug */,
+				79E70D81256D58CB00847F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E70D82256D58CB00847F5F /* Build configuration list for PBXNativeTarget "CK_Decolando para as NuvensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E70D83256D58CB00847F5F /* Debug */,
+				79E70D84256D58CB00847F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79E70D4A256D58C800847F5F /* Project object */;
+}
