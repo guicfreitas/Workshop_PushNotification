@@ -8,43 +8,17 @@
 import UIKit
 import CloudKit
 
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-        UNUserNotificationCenter.current().delegate = self
-        
-        if #available(iOS 10.0, *) {
-            let center  = UNUserNotificationCenter.current()
-            
-            center.requestAuthorization(options: [.sound, .alert, .badge]) { (granted, error) in
-                if error == nil{
-                    DispatchQueue.main.async{
-                        UIApplication.shared.registerForRemoteNotifications()
-                        
-                    }
-                }
-            }
-        }
-        else {
-            DispatchQueue.main.async{
-                
-                UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [.sound, .alert, .badge], categories: nil))
-                UIApplication.shared.registerForRemoteNotifications()
-                
-                
-            }
-        }
+        //CODE HERE!
 
         return true
     }
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        let userInfo = notification.request.content.userInfo
-        print(userInfo)
-        completionHandler([.banner,.sound])
+        //CODE HERE!
     }
     
     // MARK: UISceneSession Lifecycle

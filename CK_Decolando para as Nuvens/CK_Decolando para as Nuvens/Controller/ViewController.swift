@@ -33,16 +33,7 @@ class ViewController: UIViewController,EditLetterViewControllerDelegate {
         tableView.delegate = self
         tableView.backgroundColor = .white
         
-        if UserDefaults.standard.object(forKey: "subscriptionID") == nil{
-           let letter = Letter(name: "", content: "")
-            letter.createSubscription(){
-                error in
-                
-                if error != nil{
-                    print(error!)
-                }
-            }
-        }
+        //CHECK SUBSCRIPTION ID HERE!
     }
     
     override func viewDidAppear(_ animated: Bool) {
